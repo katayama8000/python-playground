@@ -1,1 +1,2 @@
-memory with music
+TS-Next-Mantineでアプリを作るときのスターターキット
+都度改善していく
