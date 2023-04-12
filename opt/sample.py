@@ -50,11 +50,19 @@ def main():
 	print(set5)
 	set6 = set ^ set2 # どちらかにしかないもの
 	print(set6)
+	# 関数
+	print(sum(1, 2))
+	print(sub(1, 2))
 
 
 
 def sum(a, b):
 	return a + b
+
+# 型をつけた関数
+# 引き算
+def sub(a: int, b: int) -> int:
+	return a - b
 
 if __name__ == "__main__":
 	main()
