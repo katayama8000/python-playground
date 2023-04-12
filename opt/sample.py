@@ -24,6 +24,33 @@ def main():
 	print(arr)
 	# taple.append(6)
 	# print(taple)
+	num_tuple = (1, 2, 3, 4, 5)
+	x, y, z, a, b = num_tuple
+	print(x, y, z, a, b)
+	# 辞書
+	dict = {"apple": "りんご", "orange": "みかん", "grape": "ぶどう"}
+	print(dict["apple"])
+	# 集合型
+	set = {"apple", "orange", "grape"}
+	print(set)
+	# 集合のメソッド
+	set.add("banana")
+	print(set)
+	set.remove("banana")
+	print(set)
+	set.clear()
+	print(set)
+	set = {"apple", "orange", "grape"}
+	set2 = {"banana", "melon", "grape"}
+	set3 = set | set2
+	print(set3)
+	set4 = set & set2
+	print(set4)
+	set5 = set - set2 # 両方にあるもの
+	print(set5)
+	set6 = set ^ set2 # どちらかにしかないもの
+	print(set6)
+
 
 
 def sum(a, b):
