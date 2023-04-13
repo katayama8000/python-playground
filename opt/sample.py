@@ -1,5 +1,6 @@
 import math
 import sys
+from functions import add_numbers, multiply_numbers
 
 def main():
 	val = float(sys.argv[1])
@@ -53,6 +54,12 @@ def main():
 	# 関数
 	print(sum(1, 2))
 	print(sub(1, 2))
+	print("--------------------")
+	result1 = add_numbers(1, 2)
+	result2 = multiply_numbers(3, 4)
+
+	print(result1)  # 3
+	print(result2)  # 12
 
 
 
