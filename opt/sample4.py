@@ -59,6 +59,18 @@ try:
 except requests.exceptions.HTTPError as err:
     print(err)
 
+# sort
+rank = {
+    "A": 100,
+    "B": 85,
+    "C": 95,
+    "D": 70,
+    "E": 90,
+}
+
+print(sorted(rank, key=rank.get, reverse=True))
+print(sorted(rank, key=rank.get, reverse=False))
+
 
 
 
