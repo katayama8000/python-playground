@@ -19,15 +19,14 @@ class cat(animal):
     def speak(self):
         print("meow")
 
+def main():
+    dog1 = dog("dog1", 3)
+    dog1.show()
+    dog1.speak()
+    cat1 = cat("cat1", 2)
+    cat1.show()
+    cat1.speak()
+
 # main
 if __name__ == "__main__":
-    d = dog("pochi", 3)
-    d.show()
-    d.speak()
-    c = cat("tama", 5)
-    c.show()
-    c.speak()
-    a = animal("animal", 10)
-    a.show()
-    a.speak()
-
+    main()
